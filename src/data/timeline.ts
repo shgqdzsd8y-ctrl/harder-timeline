@@ -22,12 +22,6 @@ export const timeline: Timeline = {
   maxYear: 1900,
   lanes: [
     {
-      id: 'harder',
-      label: 'Harder',
-      color: '#e0b46c',
-      segments: [{ fromYear: 1670, toYear: 1900, style: 'solid' }],
-    },
-    {
       id: 'rowe',
       label: 'Rowe',
       color: '#8fb3ff',
@@ -37,6 +31,13 @@ export const timeline: Timeline = {
         { fromYear: 1830, toYear: 1869, style: 'sub' },
       ],
     },
+    {
+      id: 'harder',
+      label: 'Harder',
+      color: '#e0b46c',
+      segments: [{ fromYear: 1670, toYear: 1900, style: 'solid' }],
+    },
+   
     {
       id: 'graves',
       label: 'Graves',
